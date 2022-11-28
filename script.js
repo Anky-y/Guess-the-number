@@ -62,7 +62,8 @@ document.querySelector(`.check`).addEventListener(`click`, function () {
       score--;
       document.querySelector(`.score`).textContent = score;
     } else {
-      document.querySelector(`.message`).textContent = `You lost, imagine 🤣`;
+      document.querySelector(`.message`).textContent = `You lost, imagine losing 
+      `;
       document.querySelector(`.score`).textContent = 0;
     }
   }
